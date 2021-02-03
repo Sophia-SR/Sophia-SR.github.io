@@ -1,0 +1,56 @@
+p {
+    color:greyblack;
+  }
+  
+  body{
+      background-color:#C3AED6;
+      background:url('keyboardpic.jpg');
+      background-repeat: no-repeat;
+      background-position:contain;
+     
+  
+  }
+  h1{
+      font-family: 'Potta One';
+      font-size: 4rem;
+  
+  }
+  h4{
+      font-family:'Potta One', cursive;
+      font-size: 1.5em;
+  }
+  
+  .description {
+      float: center;
+  }
+  
+  .left {
+     width: 600px;
+     float: left;
+     margin-top: 0px;
+  }
+  
+  .right {
+     width: 600px;
+     float: left;
+     margin-left: 30px;
+      
+  }
+  
+  .container-fluid{
+      padding: 1% 2%
+  }
+
+  .card-body{
+    background-color:#C3AED6;
+    border: 2px #8675A9
+  }
+
+  .navbar-nav{
+      font-family:'Potta One';
+      font-size: 4rem;
+  }
+
+  .btn btn-primary{
+      background-color: #C3AED6;
+  }
