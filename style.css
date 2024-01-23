@@ -31,6 +31,7 @@ a,
 nav,
 .nav-links {
   display: flex;
+  justify-content: space-between ;
 }
 
 nav {
@@ -42,7 +43,28 @@ nav {
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  margin-right: -200px ;
+}
+
+.nav-links-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  list-style: none;
+  font-size: 2rem;
+}
+
+.nav_img {
+position: relative; 
+height: auto; 
+margin-left: -200px;
+margin-right: -16rem;
+width: 100px;
+border-radius: 50%;
+border-style: groove;
+border-color: #000000;
+
 }
 
 a {
@@ -60,6 +82,8 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  position:relative;
+  margin-left: -20rem;
 }
 
 .logo:hover {
@@ -167,6 +191,10 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+}
+
+.profile_img {
+  border-radius: 50%;
 }
 
 .section__pic-container {
@@ -312,6 +340,7 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+  border-radius: 50%;
 }
 
 /* EXPERIENCE SECTION */
@@ -429,4 +458,29 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+/* BACKGROUND ANIMATION */
+
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+#animate-area {
+  width: 200px;
+  height: 200px;
+  background-image: url(http://placekitten.com/400/200);
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+  animation: animatedBackground 10s linear infinite alternate;
 }
